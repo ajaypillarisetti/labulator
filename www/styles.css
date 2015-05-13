@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+
+body {
+  overflow-y: scroll;
+  padding-bottom: 20px;
+}
+
+body,
+table.data.table-bordered td,
+label {
+  font-family: Source Sans Pro;
+  color: #444;
+  font-weight: 300;
+}
+
+h2,
+h3,
+h4,
+.table th {
+  font-weight: 600;
+}
+
+#desc { font-size: 16px; }
+
+#desc span {
+  color: #944;
+  font-weight: 400;
+}
+
+#data {
+  height: 350px;
+  overflow-y: auto;
+  padding: 0;
+}
+
+#data table { margin: 0 }
+#data table td { width: 90px; }
+#data table td:first-child { width: 180px; }
+
+.jslider{width:83%}
+
+thead.hide{display:table-header-group;}
+
+input#zero1{width:150px;}
+input#zero2{width:150px;}
+input#zero3{width:150px;}
+input#zero4{width:150px;}
+input#sample1{width:150px;}
+input#sample2{width:150px;}
+input#offset{width:150px;}
+input#masscorrection{width:150px;}
+
+#RRtable{max-height:117px; overflow-y:scroll; width=100%;}
+#fileList{float:right}
+label[for=countrySelect]{float:right; margin-top:-25px;}
+
+#hide_summary{font-size: 12px; margin-right: 50px; float:right;}
+#hide_nights{font-size: 12px; margin-right: 50px; float:right;}
+#hide_ce{font-size: 12px; margin-right: 50px; float:right;}
+#hide_br{font-size: 12px; margin-right: 50px; float:right;}
+.hider{font-size: 12px; margin-right: 50px; float:right;}
+
+.export{font-size: 12px; margin-left: 10px;}
+
+#tableTitle{margin-top:15px;}
+#colophon{font-size: 11px;text-align: center; font-weight:600; margin-top:20px;}
+
+#goButton{float:right;}
+#ledeTable{margin-top:20px; margin-bottom:10px;}
+.tableinput-buttons{float:right;}
+
+#summaryTable .row-fluid{display:none;}
+#summaryTable tfoot{display:none;}
+
+div.span2{width:15%; float:left;}
+.dataTables_info{display:none;}
+#allDataTable{max-height:300px; overflow-y:scroll;}
+
+#fullplot{height:450px!important;}
+
+.checkbox{float:left; margin-left:10px; margin-right:20px;}
+
